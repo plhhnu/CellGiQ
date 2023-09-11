@@ -2,7 +2,7 @@
 
 ## Overview
 
-![GBNN](C:\Users\gpf\Desktop\CellGiQ\CellGiQ\GBNN.png)
+GBNN.png
 
 ## Environment
 
