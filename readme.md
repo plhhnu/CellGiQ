@@ -50,5 +50,11 @@ single cell resolution.
 
   If you want to test others, just replace the dataset `GSE103322.csv` (Note: use the specified database to replace the dataset`LRI_dataset.csv`)
 
+## Cell-cell communication tools for comparative analysis
+
+
+
+[CellChat](https://github.com/sqjin/CellChat)  [iTALK](https://github.com/Coolgenome/iTALK)  [LIANA](github.com/saezlab/liana)  [CellPhoneDB](https://github.com/Teichlab/cellphonedb)  [NATMI](https://github.com/asrhou/NATMI)
+
 
 
