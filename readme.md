@@ -2,7 +2,7 @@
 
 ## Overview
 
-![Overview](C:\Users\gpf\Desktop\CellGiQ\CellGiQ\Overview.png)
+![Overview](gaopfnice\CellGiQ\Overview.png)
 
 ## Environment
 
