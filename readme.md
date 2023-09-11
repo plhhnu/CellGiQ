@@ -2,6 +2,9 @@
 
 ## Overview
 
+CellGiQ, a novel framework for deciphering ligand-receptor-mediated cell-cell communication by incorporating machine learning and a quartile scoring strategy from single-cell RNA sequencing data. CellGiQ accurately inferred intercellular communication within human HNSCC tissues. CellGiQ is anticipated to dissect cellular crosstalk and signal pathways at
+single cell resolution.
+
 ![Overview](Overview.png)
 
 ## Environment
@@ -30,7 +33,7 @@
 
 2. Run the model to obtain the LRI, or the user-specified LRI database
 
-   python code/CellGiQ.py
+   *<*python code/CellGiQ.py*>*
 
 3. Using quartile method (including expression threshold method, expression product method and specificity method), the cell communication matrix was finally obtained.
 
