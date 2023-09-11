@@ -2,7 +2,7 @@
 
 ## Overview
 
-![Overview](CellGiQ\Overview.png)
+![Overview](Overview.png)
 
 ## Environment
 
