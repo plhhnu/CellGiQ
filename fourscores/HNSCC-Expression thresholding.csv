@@ -1,0 +1,10 @@
+,HNSCC cells,Fibroblasts ,B cells,Myocytes ,Macrophages,Endothelial cells,T cells,Dendritic cells,Mast cells
+HNSCC cells,47,0,0,1,40,8,2,16,9
+Fibroblasts ,57,1,2,0,65,15,1,1,5
+B  cells,11,0,0,0,17,0,0,11,20
+Myocytes ,34,2,0,2,38,11,0,8,4
+Macrophages,69,0,3,0,89,6,0,60,51
+Endothelial cells,62,1,0,1,70,16,1,38,35
+T cells,10,0,0,0,10,0,0,12,11
+Dendritic cells,24,0,0,1,28,5,3,70,15
+Mast cells,11,0,0,0,21,3,0,7,66
