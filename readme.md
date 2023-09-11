@@ -2,7 +2,7 @@
 
 ## Overview
 
-![Overview](gaopfnice\CellGiQ\Overview.png)
+![Overview](CellGiQ\Overview.png)
 
 ## Environment
 
