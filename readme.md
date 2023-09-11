@@ -9,17 +9,22 @@ single cell resolution.
 
 ## Environment
 
-1.tensorflow == 2.10.0
+- python == 3.8.13
 
-2.keras == 2.10.0
+### packages:
 
-3.GBNN == 0.0.2
+- tensorflow == 2.10.0
+- keras == 2.10.0
+- GBNN == 0.0.2
 
-4.interpret == 0.2.7
+- interpret == 0.2.7
 
-5.scikit-learn == 0.24.0
+- scikit-learn == 0.24.0
 
-6.lightgbm == 3.3.5
+- lightgbm == 3.3.5
+- wheel == 0.37.1
+- pands == 1.5.0
+- numpy == 1.24.2
 
 ## Data
 
@@ -29,7 +34,7 @@ single cell resolution.
 
 ## Usage
 
-1. We obtain ligand and receptor characteristics
+1. We obtain ligand and receptor feature at  [BioTriangle](http://biotriangle.scbdd.com/)
 
 2. Run the model to obtain the LRI, or the user-specified LRI database		
 
@@ -37,7 +42,7 @@ single cell resolution.
    python code/CellGiQ.py
    ```
 
-3. Using quartile method (including expression threshold method, expression product method and specificity method), the cell communication matrix was finally obtained.		
+3. Using quartile method (including Expression thresholding, Expression product and Specific expression), the cell-cell communication matrix was finally obtained.		
 
      ```
      python code/case study
