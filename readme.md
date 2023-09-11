@@ -33,7 +33,7 @@ single cell resolution.
 
 2. Run the model to obtain the LRI, or the user-specified LRI database
 
-​		python code/CellGiQ.py
+1. ​	python code/CellGiQ.py
    
 3. Using quartile method (including expression threshold method, expression product method and specificity method), the cell communication matrix was finally obtained.
 
