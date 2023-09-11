@@ -2,7 +2,7 @@
 
 ## Overview
 
-GBNN.png
+gaopfnice/CellGiQ/GBNN.png
 
 ## Environment
 
