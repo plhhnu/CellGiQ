@@ -35,13 +35,13 @@ single cell resolution.
 
    
 
-   [plain]  view plain copy
+   '[plain]  view plain copy'
 
    
 
    
 
-   ​		python code/CellGiQ.py
+   ​		'''python code/CellGiQ.py'''
 
    
 
