@@ -33,7 +33,7 @@ single cell resolution.
 
 2. Run the model to obtain the LRI, or the user-specified LRI database
 
-   ​    python code/CellGiQ.py\\<br>
+   ​    '<python code/CellGiQ.py>'
 
    
 
