@@ -27,16 +27,16 @@ def experiment(seed,path):
         # 读取数据
 
         data = np.array(Sample_generation(seed, path))
-        # data = pd.read_csv('data-seq/human/train.csv', header=None, index_col=None).to_numpy()
+
         Y = data[:, -1]
         X = data[:, :-1]
 
         std = StandardScaler()
         X = std.fit_transform(X)
-        # # #归一化
-        # mm = MinMaxScaler()
-        # X = mm.fit_transform(X)
-        # d = data.shape[1]
+        #
+        mm = MinMaxScaler()
+        X = mm.fit_transform(X)
+
 
         sum_acc = 0
         sum_pre = 0
@@ -44,18 +44,18 @@ def experiment(seed,path):
         sum_f1 = 0
         sum_AUC = 0
         sum_AUPR = 0
-        #五折交叉验证
+        #
         kf = StratifiedKFold(n_splits=5, random_state=None, shuffle=True)
         for train_index, test_index in kf.split(X, Y):
             X_train, X_test = X[train_index], X[test_index]
             y_train, y_test = Y[train_index], Y[test_index]
 
-            # 模型1
+            # model
             ebm = ExplainableBoostingClassifier(learning_rate=0.01, interactions=600, early_stopping_tolerance=1e-2,
                                                 max_bins=256, max_rounds=900, min_samples_leaf=3, max_leaves=3)
             ebm.fit(X_train, y_train)
             prob_emb = ebm.predict_proba(X_test)[:, 1]
-            #模型2
+            # model2
             model = gbnn.GNEGNEClassifier(total_nn=300, num_nn_step=8, eta=0.75, solver='lbfgs',
                                           subsample=2, tol=0.0, max_iter=1200, random_state=None,
                                           activation='logistic')  # sigmoid relu
@@ -63,7 +63,7 @@ def experiment(seed,path):
             prob = model.predict_proba(X_test)[:, 1]
 
 
-            prob = prob_emb * 0.5 + prob* 0.5
+            prob = prob_emb * 0.8 + prob* 0.2
 
             pred = []
             for k in prob:

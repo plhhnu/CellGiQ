@@ -6,7 +6,7 @@ import numpy as np
 nan = 0
 path = 'data-seq/human/'
 df1 = pd.read_csv(path + 'LRI_name_known.csv', header=None, index_col=None, sep=' ').to_numpy()
-df2 = pd.read_csv(path + 'pred_0.96_name.csv', header=None, index_col=None, sep=' ').to_numpy()
+df2 = pd.read_csv(path + 'pred_name.csv', header=None, index_col=None, sep=' ').to_numpy()
 ll = pd.read_csv(path + 'ligand_gen.csv', header=None, index_col=None).to_numpy()
 rl = pd.read_csv(path + 'receptor_gen.csv', header=None, index_col=None).to_numpy()
 
@@ -204,7 +204,7 @@ for i in LRI_gene:
             if b == 9:
                 b = 0
                 a += 1
-         #特异性
+         #
         sp_l_malignant = mean_l_malignant/sum_l
         sp_l_Fibro = mean_l_Fibro/sum_l
         sp_l_B = mean_l_B/sum_l
