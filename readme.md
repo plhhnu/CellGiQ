@@ -32,6 +32,7 @@ single cell resolution.
 1. We obtain ligand and receptor characteristics
 
 2. Run the model to obtain the LRI, or the user-specified LRI database
+<<<<<<< HEAD
 
    
 
@@ -39,6 +40,9 @@ single cell resolution.
 
    
 
+=======
+        python code/CellGiQ.py
+>>>>>>> 444305aca96efba3d1331681175137badf14b4d3
 3. Using quartile method (including expression threshold method, expression product method and specificity method), the cell communication matrix was finally obtained.
 
    python code/case study
