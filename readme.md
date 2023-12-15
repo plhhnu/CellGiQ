@@ -47,8 +47,9 @@ single cell resolution.
      ```
      python code/case study
      ```
+## Change database
 
-  If you want to test others, just replace the dataset `GSE103322.csv` (Note: use the specified database to replace the dataset`LRI_dataset.csv`)
+  If you want to test other tumors, just replace the dataset `GSE103322.csv` (Note: use the specified database to replace the dataset`LRI_dataset.csv`)
 
 ## Cell-cell communication tools for comparative analysis
 
