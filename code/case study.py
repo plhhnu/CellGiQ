@@ -6,7 +6,7 @@ import numpy as np
 nan = 0
 path = 'data-seq/human/'
 df1 = pd.read_csv(path + 'LRI_name_known.csv', header=None, index_col=None, sep=' ').to_numpy()
-df2 = pd.read_csv(path + 'pred_name.csv', header=None, index_col=None, sep=' ').to_numpy()
+df2 = pd.read_csv(path + 'LRI_dataset.csv', header=None, index_col=None, sep=' ').to_numpy()
 ll = pd.read_csv(path + 'ligand_gen.csv', header=None, index_col=None).to_numpy()
 rl = pd.read_csv(path + 'receptor_gen.csv', header=None, index_col=None).to_numpy()
 
